@@ -34,10 +34,7 @@ while pokracuj:
         menu1 = True
         while menu1:
             jmeno = input("Zadejte jméno pojištěnce: ")
-            x = (jmeno.isalpha())
-            if x == True:
-                pass
-            else:
+            if !jmeno.isalpha()
                 print("Musí obsahovat pouze písmena.")
                 input("Pokračujte libovolnou klávesou...")
                 break
